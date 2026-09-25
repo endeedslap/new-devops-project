@@ -26,7 +26,7 @@ metrics.info("app_info", "Application information", version=os.getenv("APP_VERSI
 def index():
     logger.info("Root endpoint requested")
     return jsonify({
-        "message": "Devps Cloud Project is running",
+        "message": "Devops Cloud Project is running",
         "version": os.getenv("APP_VERSION", "1.0.0")
     })
 
